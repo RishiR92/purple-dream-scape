@@ -22,7 +22,7 @@ const HeroSection = () => {
               The Smartest <span className="text-asmi-600">Personal Assistant</span> on WhatsApp
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-lg leading-relaxed">
-              Just send it a message—voice or text—and it takes care of the rest. Whether it's a quick note, a to-do, or something you want to remember.
+              Turn every note or voice message into action—Asmi extracts key info, remembers it, and helps you get things done.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button 

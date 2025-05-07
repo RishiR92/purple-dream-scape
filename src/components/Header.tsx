@@ -26,7 +26,7 @@ const Header = () => {
       <div className="container mx-auto flex items-center justify-between">
         <div className="flex items-center">
           <h1 className="text-2xl font-bold text-asmi-600">Asmi</h1>
-          <p className="hidden md:block ml-2 text-sm text-gray-600">Your AI on WhatsApp</p>
+          <p className="hidden md:block ml-2 text-sm text-gray-600">Your AI that listens, remembers, and helps you run your life.</p>
         </div>
         
         {/* Mobile menu button */}

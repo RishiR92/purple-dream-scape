@@ -28,7 +28,7 @@ const DifferenceSection = () => {
             <h3 className="text-2xl font-semibold mb-4 text-asmi-600">Starts on WhatsApp. Built Around Your Life.</h3>
             <p className="text-lg text-gray-600 mb-6">
               Most AI tools need apps and effort. Asmi lives where your life already happens—on WhatsApp. 
-              You talk to it just like a friend, and it becomes your second brain, always on, always helpful.
+              You talk to it just like a friend, and it becomes your second brain: always on, always helpful.
             </p>
             
             <div className="bg-gray-50 p-6 rounded-lg border border-gray-100">

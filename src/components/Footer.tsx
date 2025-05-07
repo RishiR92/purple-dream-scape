@@ -13,7 +13,7 @@ const Footer = () => {
               <span className="text-sm text-gray-500">• Personal Assistant on WhatsApp</span>
             </div>
             <p className="text-gray-600 max-w-xs">
-              Your AI that listens, remembers, and helps you run your life—all on WhatsApp.
+              Your AI that listens, remembers, and helps you run your life.
             </p>
           </div>
           

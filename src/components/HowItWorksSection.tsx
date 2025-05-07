@@ -24,19 +24,19 @@ const HowItWorksSection = () => {
     {
       number: 1,
       title: "Send or Forward Anything",
-      description: "Texts, voice notes, reminders, or to-dos to Asmi on WhatsApp.",
+      description: "Texts, voice notes, reminders, or tasks.",
       icon: MessageSquare
     },
     {
       number: 2,
       title: "Asmi Understands",
-      description: "It learns your context—tasks, events, priorities, and preferences.",
+      description: "It learns your context—tasks, events, priorities—and stores it in memory.",
       icon: Brain
     },
     {
       number: 3,
       title: "Get Help Instantly",
-      description: "Asmi remembers what matters and answers your questions when needed.",
+      description: "Daily plans, smart reminders, answers to questions—all deeply personalized.",
       icon: Clock
     },
   ];
