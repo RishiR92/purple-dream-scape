@@ -11,7 +11,7 @@ const Header = () => {
       <div className="container mx-auto flex items-center justify-between">
         <div className="flex items-center">
           <h1 className="text-2xl font-bold text-asmi-600">Asmi</h1>
-          <p className="hidden md:block ml-2 text-sm text-gray-600">Voice-powered AI OS</p>
+          <p className="hidden md:block ml-2 text-sm text-gray-600">Your AI on WhatsApp</p>
         </div>
         
         {/* Mobile menu button */}
@@ -30,7 +30,7 @@ const Header = () => {
         </nav>
         
         <div className="hidden md:block">
-          <Button variant="default" className="bg-asmi-600 hover:bg-asmi-700">Try Asmi Free</Button>
+          <Button variant="default" className="bg-asmi-600 hover:bg-asmi-700">Try Asmi on WhatsApp</Button>
         </div>
         
         {/* Mobile menu */}
@@ -40,7 +40,7 @@ const Header = () => {
               <a href="#features" className="py-2 text-gray-600 hover:text-asmi-600 transition-colors">Features</a>
               <a href="#how-it-works" className="py-2 text-gray-600 hover:text-asmi-600 transition-colors">How it Works</a>
               <a href="#testimonials" className="py-2 text-gray-600 hover:text-asmi-600 transition-colors">Testimonials</a>
-              <Button variant="default" className="mt-4 bg-asmi-600 hover:bg-asmi-700">Try Asmi Free</Button>
+              <Button variant="default" className="mt-4 bg-asmi-600 hover:bg-asmi-700">Try Asmi on WhatsApp</Button>
             </div>
           </div>
         )}

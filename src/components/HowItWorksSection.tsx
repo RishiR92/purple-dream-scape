@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Mic, Brain, PlayCircle } from 'lucide-react';
+import { MessageSquare, Brain, Clock } from 'lucide-react';
 
 const Step = ({ number, title, description, icon: Icon }: { number: number; title: string; description: string; icon: any }) => {
   return (
@@ -23,21 +23,21 @@ const HowItWorksSection = () => {
   const steps = [
     {
       number: 1,
-      title: "Capture",
-      description: "Asmi passively listens to your voice, calendar, and habits.",
-      icon: Mic
+      title: "Send or Forward Anything",
+      description: "Texts, voice notes, reminders, or to-dos to Asmi on WhatsApp.",
+      icon: MessageSquare
     },
     {
       number: 2,
-      title: "Understand",
-      description: "It learns your context—mood, preferences, priorities.",
+      title: "Asmi Understands",
+      description: "It learns your context—tasks, events, priorities, and preferences.",
       icon: Brain
     },
     {
       number: 3,
-      title: "Act",
-      description: "Suggests what to do, when to do it, and helps you get it done.",
-      icon: PlayCircle
+      title: "Get Help Instantly",
+      description: "Asmi remembers what matters and answers your questions when needed.",
+      icon: Clock
     },
   ];
 
@@ -47,7 +47,7 @@ const HowItWorksSection = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">How It Works</h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Asmi passively listens, understands your context, and creates intelligent & fun AI agents to manage life seamlessly.
+            Asmi uses AI to turn your WhatsApp into a personal operating system.
           </p>
         </div>
 
@@ -65,11 +65,11 @@ const HowItWorksSection = () => {
         
         <div className="mt-16 text-center">
           <div className="inline-block bg-asmi-100 text-asmi-700 font-medium rounded-full px-6 py-2 mb-4">
-            No friction
+            No learning curve
           </div>
-          <h3 className="text-2xl font-bold mb-4 text-gray-900">No typing. No toggling between apps. Just your voice.</h3>
+          <h3 className="text-2xl font-bold mb-4 text-gray-900">No new app. No learning curve. Just your WhatsApp.</h3>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Asmi is designed to be always available but never in the way. It's the first AI that truly integrates with your life.
+            Asmi is designed to seamlessly integrate with the messaging app you already use every day.
           </p>
         </div>
       </div>

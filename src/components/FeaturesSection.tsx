@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Check, MessageSquare, Calendar, Heart, Settings } from 'lucide-react';
+import { CalendarDays, ListTodo, MessageSquare, Brain } from 'lucide-react';
 
 const FeatureCard = ({ title, description, icon: Icon }: { title: string; description: string; icon: any }) => {
   return (
@@ -17,24 +17,24 @@ const FeatureCard = ({ title, description, icon: Icon }: { title: string; descri
 const FeaturesSection = () => {
   const features = [
     {
-      title: "Chief of Staff",
-      description: "Plans your day, prepares you for meetings, takes notes, plans travel, pays bills.",
-      icon: Settings
+      title: "Daily Planner",
+      description: "Sends your personalized schedule every morning based on your calendar and priorities.",
+      icon: CalendarDays
     },
     {
-      title: "Wellness Coach",
-      description: "Creates plans based on your daily schedule, pushes you to follow through, tracks your progress.",
-      icon: Heart
-    },
-    {
-      title: "Entertainment Curator",
-      description: "Suggests shows, food, and travel based on your mood and preferences.",
-      icon: MessageSquare
+      title: "To-Do Manager",
+      description: "Creates, tracks, and reminds you of your tasks exactly when you need them.",
+      icon: ListTodo
     },
     {
       title: "Memory Keeper",
-      description: "Recalls what matters—from a thought you had in the car to a gift idea from last week.",
-      icon: Calendar
+      description: "Remembers everything you've told or forwarded—ideas, links, voice notes, important info.",
+      icon: MessageSquare
+    },
+    {
+      title: "Personal Assistant",
+      description: "Answers your questions with context from your own life and messaging history.",
+      icon: Brain
     },
   ];
 
@@ -60,16 +60,18 @@ const FeaturesSection = () => {
         <div className="mt-16 bg-gradient-to-r from-asmi-500 to-asmi-700 rounded-2xl p-8 md:p-12 shadow-lg max-w-5xl mx-auto">
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-3/4 mb-8 md:mb-0 md:mr-8">
-              <h3 className="text-2xl md:text-3xl font-bold mb-4 text-white">All working together seamlessly</h3>
+              <h3 className="text-2xl md:text-3xl font-bold mb-4 text-white">All over WhatsApp. All personalized just for you.</h3>
               <p className="text-white/80 text-lg">
-                Asmi integrates every aspect of your life, creating a personalized experience that just works.
-                No typing. No toggling between apps. Just your voice.
+                Asmi integrates every aspect of your life right where your conversations already happen.
+                No new app. No learning curve. Just your WhatsApp.
               </p>
             </div>
             <div className="md:w-1/4 flex justify-center">
-              <div className="w-24 h-24 rounded-full bg-white flex items-center justify-center">
-                <Check size={48} className="text-asmi-600" />
-              </div>
+              <img 
+                src="/lovable-uploads/0f7e42be-2cd4-4219-98a2-1a0e289a9383.png"
+                alt="Asmi on WhatsApp"
+                className="w-24 h-24 rounded-full bg-white p-2 object-contain"
+              />
             </div>
           </div>
         </div>

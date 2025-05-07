@@ -11,9 +11,9 @@ const DifferenceSection = () => {
               <div className="w-full h-[400px] bg-gradient-to-br from-asmi-300 to-asmi-500 rounded-xl shadow-lg overflow-hidden">
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="p-8 text-center">
-                    <h3 className="text-3xl font-bold text-white mb-4">Beyond Prompts</h3>
+                    <h3 className="text-3xl font-bold text-white mb-4">Starts on WhatsApp</h3>
                     <p className="text-white/90 text-lg">
-                      Asmi lives with you. It understands your day, your world, your context—passively.
+                      Built around your life. Where your life already happens—on WhatsApp.
                     </p>
                   </div>
                 </div>
@@ -25,11 +25,10 @@ const DifferenceSection = () => {
           
           <div className="lg:w-1/2 lg:pl-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">Why Asmi Is Different</h2>
-            <h3 className="text-2xl font-semibold mb-4 text-asmi-600">Built Around Your Real Life, Not Just Prompts</h3>
+            <h3 className="text-2xl font-semibold mb-4 text-asmi-600">Starts on WhatsApp. Built Around Your Life.</h3>
             <p className="text-lg text-gray-600 mb-6">
-              Unlike chatbots and AI tools that require constant input, Asmi lives with you.
-              It understands your day, your world, your context—passively. That creates a magical experience
-              you don't have to think about. It just works.
+              Most AI tools need apps and effort. Asmi lives where your life already happens—on WhatsApp. 
+              You talk to it just like a friend, and it becomes your second brain, always on, always helpful.
             </p>
             
             <div className="bg-gray-50 p-6 rounded-lg border border-gray-100">
@@ -37,15 +36,15 @@ const DifferenceSection = () => {
               <ul className="space-y-3">
                 <li className="flex items-start">
                   <span className="bg-asmi-100 text-asmi-700 rounded-full w-6 h-6 flex items-center justify-center mr-3 mt-0.5">✓</span>
-                  <span className="text-gray-700">Always-on, passive listening vs. prompt-based interactions</span>
+                  <span className="text-gray-700">Lives in WhatsApp vs. requiring a separate app</span>
                 </li>
                 <li className="flex items-start">
                   <span className="bg-asmi-100 text-asmi-700 rounded-full w-6 h-6 flex items-center justify-center mr-3 mt-0.5">✓</span>
-                  <span className="text-gray-700">Context-aware understanding vs. isolated conversations</span>
+                  <span className="text-gray-700">Remembers your context vs. isolated conversations</span>
                 </li>
                 <li className="flex items-start">
                   <span className="bg-asmi-100 text-asmi-700 rounded-full w-6 h-6 flex items-center justify-center mr-3 mt-0.5">✓</span>
-                  <span className="text-gray-700">Proactive assistance vs. reactive responses</span>
+                  <span className="text-gray-700">Becomes your second brain vs. just answering questions</span>
                 </li>
               </ul>
             </div>

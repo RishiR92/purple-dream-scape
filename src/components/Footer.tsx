@@ -10,10 +10,10 @@ const Footer = () => {
           <div className="mb-8 md:mb-0">
             <div className="flex items-center mb-4">
               <h2 className="text-2xl font-bold text-asmi-600 mr-2">Asmi</h2>
-              <span className="text-sm text-gray-500">• Voice-first AI OS</span>
+              <span className="text-sm text-gray-500">• Personal Assistant on WhatsApp</span>
             </div>
             <p className="text-gray-600 max-w-xs">
-              Your voice-powered AI that organizes your life.
+              Your AI that listens, remembers, and helps you run your life—all on WhatsApp.
             </p>
           </div>
           
@@ -42,7 +42,7 @@ const Footer = () => {
                 <li><a href="#" className="text-gray-600 hover:text-asmi-600 transition-colors">Documentation</a></li>
                 <li><a href="#" className="text-gray-600 hover:text-asmi-600 transition-colors">Support</a></li>
                 <li><a href="#" className="text-gray-600 hover:text-asmi-600 transition-colors">Privacy</a></li>
-                <li><a href="#" className="text-gray-600 hover:text-asmi-600 transition-colors">Terms</a></li>
+                <li><a href="#" className="text-gray-600 hover:text-asmi-600 transition-colors">Contact</a></li>
               </ul>
             </div>
             <div>
@@ -65,7 +65,7 @@ const Footer = () => {
           </p>
           <div className="flex space-x-6">
             <a href="#" className="text-gray-500 hover:text-asmi-600 text-sm">Privacy</a>
-            <a href="#" className="text-gray-500 hover:text-asmi-600 text-sm">Terms</a>
+            <a href="#" className="text-gray-500 hover:text-asmi-600 text-sm">Discord</a>
             <a href="#" className="text-gray-500 hover:text-asmi-600 text-sm">Contact</a>
           </div>
         </div>

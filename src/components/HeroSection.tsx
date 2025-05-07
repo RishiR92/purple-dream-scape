@@ -10,14 +10,14 @@ const HeroSection = () => {
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-12 md:mb-0 animate-fade-in">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-gray-900 leading-tight">
-              The AI That Truly <span className="text-asmi-600">Knows You</span>
+              The Smartest <span className="text-asmi-600">Personal Assistant</span> on WhatsApp
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-lg">
-              Asmi is an always-on, voice-first AI OS that passively listens, understands your context, and becomes your personal command center for life.
+              Just send it a message—voice or text—and it takes care of the rest. Whether it's a quick note, a to-do, or something you want to remember.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button className="bg-asmi-600 hover:bg-asmi-700 text-white px-8 py-6 rounded-lg text-lg flex items-center">
-                Try Asmi Free
+                Try Asmi Free on WhatsApp
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
               <Button variant="outline" className="border-asmi-300 text-asmi-700 hover:bg-asmi-50 px-8 py-6 rounded-lg text-lg flex items-center">
@@ -31,8 +31,8 @@ const HeroSection = () => {
             <div className="relative z-10">
               <div className="w-full h-[400px] md:h-[500px] bg-gradient-to-br from-asmi-200 to-asmi-400 rounded-xl shadow-xl flex items-center justify-center overflow-hidden">
                 <img 
-                  src="/lovable-uploads/4c6f6ac8-4db3-4875-9bf5-755889b0266b.png"
-                  alt="Asmi AI Interface"
+                  src="/lovable-uploads/2e3dbaeb-16e1-4adf-b319-3a77bb2da76c.png"
+                  alt="Asmi WhatsApp Interface"
                   className="w-3/4 h-auto object-contain animate-float"
                 />
               </div>
