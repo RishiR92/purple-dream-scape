@@ -27,6 +27,25 @@ const Waitlist = () => {
             </Button>
           </div>
           
+          {/* Welcome message - moved to the top */}
+          <div className="bg-gradient-to-r from-asmi-800 to-asmi-600 rounded-2xl p-8 md:p-12 text-center text-white shadow-lg mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 animate-fade-in">
+              Welcome, my superstar.
+            </h2>
+            
+            <p className="text-xl md:text-2xl mb-8 leading-relaxed">
+              You're part of the same tribe now as Steve. 
+              <span className="block mt-2">Magic is brewing—you're <span className="font-bold">#4888</span> in the queue and climbing.</span>
+            </p>
+            
+            <div className="animate-[pulse_3s_ease-in-out_infinite]">
+              <p className="text-2xl font-medium relative inline-block">
+                <span className="animate-[float_4s_ease-in-out_infinite]">Stay tuned!</span>
+                <span className="absolute -bottom-2 left-0 w-full h-0.5 bg-white opacity-70 animate-[shimmer_3s_ease-in-out_infinite]"></span>
+              </p>
+            </div>
+          </div>
+          
           {/* Celebrity testimonials */}
           <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center text-gray-800">
             <span className="gradient-text">Industry Leaders</span> Trust Asmi
@@ -142,25 +161,6 @@ const Waitlist = () => {
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          
-          {/* Welcome message */}
-          <div className="bg-gradient-to-r from-asmi-800 to-asmi-600 rounded-2xl p-8 md:p-12 text-center text-white shadow-lg">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6 animate-fade-in">
-              Welcome, my superstar.
-            </h2>
-            
-            <p className="text-xl md:text-2xl mb-8 leading-relaxed">
-              You're part of the same tribe now as Steve. 
-              <span className="block mt-2">Magic is brewing—you're <span className="font-bold">#4888</span> in the queue and climbing.</span>
-            </p>
-            
-            <div className="animate-[pulse_3s_ease-in-out_infinite]">
-              <p className="text-2xl font-medium relative inline-block">
-                <span className="animate-[float_4s_ease-in-out_infinite]">Stay tuned!</span>
-                <span className="absolute -bottom-2 left-0 w-full h-0.5 bg-white opacity-70 animate-[shimmer_3s_ease-in-out_infinite]"></span>
-              </p>
             </div>
           </div>
         </div>
