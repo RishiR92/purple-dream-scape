@@ -77,22 +77,11 @@ const Waitlist = () => {
               <span className="block mt-2">Magic is brewing—you're <span className="font-bold">#4888</span> in the queue and climbing.</span>
             </p>
             
-            <div className="w-full max-w-md mx-auto mb-8 bg-white/10 backdrop-blur-sm rounded-lg p-4">
-              <div className="h-2 bg-white/30 rounded-full overflow-hidden">
-                <div className="h-full w-1/3 bg-white rounded-full"></div>
-              </div>
-              <div className="flex justify-between mt-2 text-sm opacity-80">
-                <span>Waitlist filling up</span>
-                <span>33% complete</span>
-              </div>
-            </div>
-            
-            <div className="animate-float">
-              <p className="text-xl font-medium mb-6">Stay tuned!</p>
-              <div className="inline-flex space-x-2 items-center bg-white/20 backdrop-blur-sm py-2 px-4 rounded-full">
-                <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse"></span>
-                <span>We'll notify you when it's your turn</span>
-              </div>
+            <div className="animate-[pulse_3s_ease-in-out_infinite]">
+              <p className="text-2xl font-medium relative inline-block">
+                <span className="animate-[float_4s_ease-in-out_infinite]">Stay tuned!</span>
+                <span className="absolute -bottom-2 left-0 w-full h-0.5 bg-white opacity-70 animate-[shimmer_3s_ease-in-out_infinite]"></span>
+              </p>
             </div>
           </div>
         </div>
